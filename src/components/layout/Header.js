@@ -13,23 +13,33 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 export default function SimpleBottomNavigation() {
   return (
-    <Grid container justifyContent="center">
+    <Grid container justifyContent="center" sx={{ marginBottom: "30px" }}>
       <Grid container item xs={10} sx={{ marginTop: "70px" }}>
         <Grid container item xs={4} spacing={2} alignItems="center">
           <Grid item>
-            <Link className="main-color">HOME</Link>
+            <Link className="main-color" to="/home">
+              HOME
+            </Link>
           </Grid>
           <Grid item>
-            <Link className="main-color">ABOUT</Link>
+            <Link className="main-color" to="/about">
+              ABOUT
+            </Link>
           </Grid>
           <Grid item>
-            <Link className="main-color">ROADMAP</Link>
+            <Link className="main-color" to="/roadmap">
+              ROADMAP
+            </Link>
           </Grid>
           <Grid item>
-            <Link className="main-color">FAQS</Link>
+            <Link className="main-color" to="/faqs">
+              FAQS
+            </Link>
           </Grid>
           <Grid item>
-            <Link className="main-color">TEAM</Link>
+            <Link className="main-color" to="/contact">
+              TEAM
+            </Link>
           </Grid>
         </Grid>
         <Grid container item xs={4} justifyContent={"center"}>

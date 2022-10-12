@@ -59,16 +59,22 @@ export default function SimpleBottomNavigation() {
             <Grid container item xs={6} justifyContent="center">
               <h1 className="post-title main-color">We Are Handy Meta Girls</h1>
             </Grid>
-            <Grid container justifyContent="center">
+            <Grid container item xs={8} justifyContent="center">
               <p className="post-description main-color">
                 A 5,555 NFT collection exploring the Ethereum blockchain. Handy
                 Meta Girls will serve as a bridge for everyone to bring the
                 women's fashion industry into the metaverse.
               </p>
             </Grid>
-            <Button variant="outlined" color="error" href="https://opensea.io/">
-              OPENSEA
-            </Button>
+            <Grid container item xs={12} justifyContent="center">
+              <Button
+                variant="outlined"
+                color="error"
+                href="https://opensea.io/"
+              >
+                OPENSEA
+              </Button>
+            </Grid>
           </Grid>
         </Grid>
         <Grid container className="time-grid">

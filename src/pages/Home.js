@@ -202,7 +202,6 @@ export default function SimpleBottomNavigation() {
           alignItems="center"
         >
           <h1>FAQs</h1>
-          <span>Helpful information</span>
         </Grid>
         <Grid className="faq-bg"></Grid>
         <Grid container justifyContent="center" className="faq-box">

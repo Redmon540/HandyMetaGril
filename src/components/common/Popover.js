@@ -36,7 +36,7 @@ const style = {
 };
 
 export default function BasicPopover({ num, label, description }) {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
     setOpen(!open);

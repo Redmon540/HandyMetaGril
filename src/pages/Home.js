@@ -61,11 +61,12 @@ export default function SimpleBottomNavigation() {
             </Grid>
             <Grid container justifyContent="center">
               <p className="post-description main-color">
-                10,000 women joined together to spread knowledge and
-                experiences!
+                A 5,555 NFT collection exploring the Ethereum blockchain. Handy
+                Meta Girls will serve as a bridge for everyone to bring the
+                women's fashion industry into the metaverse.
               </p>
             </Grid>
-            <Button variant="outlined" color="error">
+            <Button variant="outlined" color="error" href="https://opensea.io/">
               OPENSEA
             </Button>
           </Grid>
@@ -156,24 +157,22 @@ export default function SimpleBottomNavigation() {
             <NftBlock
               image="01"
               title="Phase 1: Contest of Whitelist"
-              description="We will be giving away 1 WL spot every day via tweet on
-                    Twitter. The contest will run for up to 90 days which means
-                    a total of 90 WL spot will be given away."
+              description="We will be giving away 1 WL spot every day via tweet on Twitter. The contest will run for up to 90 days which means a total of 90 WL spot will be given away."
             />
             <NftBlock
               image="02"
               title="Phase 2: Miss Handy"
-              description="We will conduct a contest of the most funniest women in her profession. Members can submit their entry on Handy Meta Girls website. We will announce 20 winners of the funniest photo and it will be judged fairly by the team and the community."
+              description="We will conduct a contest of the most gorgeous and attractive women in her profession. Members can submit their entry on Handy Meta Girls website. We will announce 20 winners of the contest and it will be fairly  judged by the team and the community."
             />
             <NftBlock
               image="03"
               title="Phase 3: Handy Meta Girls Game"
-              description="We are developing a fashion dress-up game before the mint. This game is free-to-play for everyone and can use their cryptocurrency to buy upgrades, accessories and etc. But our NFT holders will receive various benefits such as special in-game rewards and bonuses."
+              description="We are developing a fashion dress-up game before the mint. This game is free-to-play for everyone and can use their cryptocurrency to buy upgrades, accessories and etc. But our NFT holders will receive various benefits such as special in-game rewards and bonuses. Coins earned from this game can be used to buy merchandise in our E-shop."
             />
             <NftBlock
               image="05"
-              title="Phase 7: Launch of E-shop"
-              description="The launch of 10,000 Handy Meta Girls NFT to whitelisted members and to the public."
+              title="Phase 4: Primary Sales"
+              description="The launch of 5,555 Handy Meta Girls NFT to whitelisted members and to the public."
             />
             <NftBlock
               image="04"
@@ -183,17 +182,7 @@ export default function SimpleBottomNavigation() {
             <NftBlock
               image="05"
               title="Phase 6: Creation of Handy Meta Girls 2.0"
-              description="Based on the community's suggestions, we will create a 500 special edition of our NFT called Handy Meta Girls 2.0. The first 400 will be airdropped to those who suggested the designs. While the remaining 100 will be used for giveaways and for future partnerships."
-            />
-            <NftBlock
-              image="02"
-              title="Phase 7: Launch of E-shop"
-              description="Members of the community will be able to purchase items related to Handy Meta Girls via E-shop that we will launch."
-            />
-            <NftBlock
-              image="01"
-              title="Phase 8: Introduction to Metaverse"
-              description="Handy Meta Girls NFT are prepared to be used in the metaverse."
+              description="Based on the community's suggestions, we will create a 500 special edition of our NFT called Handy Meta Girls 2.0 where it will be transformed into a 3D design. The first 400 will be airdropped to those who suggested the designs. While the remaining 100 will be used for giveaways and for future partnerships. "
             />
           </Grid>
         </Grid>
@@ -225,8 +214,8 @@ export default function SimpleBottomNavigation() {
             <Grid item xs={12}>
               <Popover
                 num="02"
-                label="Are Handy Meta Girls NFTs a good investment?"
-                description="NFTs have become an investment opportunity. Like the physical arts, it's not the ownership that matters, instead, it's the ability to attract the highest bids during sale. When you sell an NFT at a higher price than you bought it, then it's worth the investment. And with Handy Meta Girls the investment opportunities will be unreal!"
+                label="Why should we buy Handy Meta Girls NFT?"
+                description="Being a holder of our NFT comes with a lot of benefits which include being entitled to our future airdrops, access to our Handy Meta Girls game, discount to our E-shop where everyone can buy merchandise about Handy Meta Girls, participate to clothing design contest, and many more."
               />
             </Grid>
             <Grid item xs={12}>

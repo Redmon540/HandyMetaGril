@@ -5,7 +5,7 @@ import IconButton from "@mui/material/IconButton";
 import Grow from "@mui/material/Grow";
 
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
-import TelegramIcon from "@mui/icons-material/Telegram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -37,17 +37,37 @@ export default function Contact() {
             <h1 style={style.h1}>Contact</h1>
           </Grid>
           <Grid container item xs={4} justifyContent="center">
-            <IconButton variant="text" color="success">
+            <IconButton
+              variant="text"
+              color="success"
+              href="https://discord.gg/E222ymXmZe"
+              target="_blank"
+            >
               <SportsEsportsIcon />
             </IconButton>
-            <IconButton variant="text" color="secondary">
+            <IconButton
+              variant="text"
+              color="secondary"
+              href="https://twitter.com/HandyMetaGirls"
+              target="_blank"
+            >
               <TwitterIcon />
             </IconButton>
-            <IconButton variant="text" color="error">
+            <IconButton
+              variant="text"
+              color="error"
+              href="https://www.instagram.com/handymetagirls/"
+              target="_blank"
+            >
               <InstagramIcon />
             </IconButton>
-            <IconButton variant="text" color="primary">
-              <TelegramIcon />
+            <IconButton
+              variant="text"
+              color="primary"
+              href="https://www.facebook.com/profile.php?id=100084245494629"
+              target="_blank"
+            >
+              <FacebookIcon />
             </IconButton>
           </Grid>
         </Grid>

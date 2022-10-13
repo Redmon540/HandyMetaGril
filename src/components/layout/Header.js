@@ -7,7 +7,7 @@ import IconButton from "@mui/material/IconButton";
 
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import SailingIcon from "@mui/icons-material/Sailing";
-import TelegramIcon from "@mui/icons-material/Telegram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -56,20 +56,45 @@ export default function SimpleBottomNavigation() {
           alignItems="center"
           spacing={2}
         >
-          <IconButton variant="text" color="error" href="https://opensea.io/">
+          <IconButton
+            variant="text"
+            color="error"
+            href="https://opensea.io/"
+            target="_blank"
+          >
             <SailingIcon />
           </IconButton>
-          <IconButton variant="text" color="error">
+          <IconButton
+            variant="text"
+            color="error"
+            href="https://discord.gg/E222ymXmZe"
+            target="_blank"
+          >
             <SportsEsportsIcon />
           </IconButton>
-          <IconButton variant="text" color="error">
+          <IconButton
+            variant="text"
+            color="error"
+            href="https://twitter.com/HandyMetaGirls"
+            target="_blank"
+          >
             <TwitterIcon />
           </IconButton>
-          <IconButton variant="text" color="error">
+          <IconButton
+            variant="text"
+            color="error"
+            href="https://www.instagram.com/handymetagirls/"
+            target="_blank"
+          >
             <InstagramIcon />
           </IconButton>
-          <IconButton variant="text" color="error">
-            <TelegramIcon />
+          <IconButton
+            variant="text"
+            color="error"
+            href="https://www.facebook.com/profile.php?id=100084245494629"
+            target="_blank"
+          >
+            <FacebookIcon />
           </IconButton>
         </Grid>
       </Grid>

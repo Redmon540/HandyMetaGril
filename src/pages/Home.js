@@ -162,6 +162,7 @@ export default function Home() {
                     and deliver the game to everyone right before our minting
                     period.
                   </span>
+                  <br />
                   <span>
                     It is a free-to-play fashion-themed with a mini-racing game
                     for everyone and holders get special in-game rewards. And by

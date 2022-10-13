@@ -16,6 +16,7 @@ a {
   outline: 0;
   vertical-align: baseline;
   background: transparent;
+  box-sizing: border-box;
 }
 
 .main-color {

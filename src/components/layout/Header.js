@@ -11,9 +11,16 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
+const style = {
+  grid: {
+    backgroundColor: "#FFD1D1",
+    paddingBottom: "30px",
+  },
+};
+
 export default function SimpleBottomNavigation() {
   return (
-    <Grid container justifyContent="center" sx={{ marginBottom: "30px" }}>
+    <Grid container justifyContent="center" style={style.grid}>
       <Grid container item xs={11} sx={{ marginTop: "70px" }}>
         <Grid container item xs={1} alignItems="center">
           <img alt="logo" src="../img/logo.jpg" />
@@ -46,8 +53,8 @@ export default function SimpleBottomNavigation() {
           </Grid>
         </Grid>
         <Grid container item xs={2} justifyContent={"center"}>
-          <Button variant="text" color="error">
-            Mint
+          <Button variant="contained" color="error">
+            Mint Now
           </Button>
         </Grid>
         <Grid

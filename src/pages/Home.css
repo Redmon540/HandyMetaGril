@@ -1,6 +1,9 @@
 * {
   --transition-duration: 700ms;
 }
+section {
+  background-color: #ffe3e1;
+}
 /*   Post   */
 .post-title {
   font: normal normal normal 72px/1.25em "rozha one", serif;

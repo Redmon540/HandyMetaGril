@@ -6,16 +6,18 @@ import Grow from "@mui/material/Grow";
 import Popover from "../components/common/Popover";
 
 const style = {
+  section: {
+    backgroundColor: "#FFE3E1",
+  },
   grid: {
     backgroundColor: "rgba(255, 0, 0, 0.2)",
-    height: "480px",
+    height: "200px",
     width: "100%",
     position: "absolute",
   },
   box: {
     margin: 0,
     marginTop: "30px",
-    marginBottom: "100px",
     color: "#ad333c",
     font: "40px / 1.34em 'rozha one', serif",
     padding: "0px",
@@ -24,11 +26,11 @@ const style = {
     backgroundImage: "url('../img/faq-bg.webp')",
     backgroundRepeat: "no-repeat",
     backgroundSize: "100%",
-    height: "480px",
+    height: "200px",
   },
   h1: {
     color: "#fff",
-    font: "normal normal normal 30px/1.35em 'rozha one', serif",
+    font: "normal normal normal 40px/1.35em 'rozha one', serif",
     textAlign: "center",
     margin: 0,
     fontWeight: "bold",
@@ -39,7 +41,7 @@ const style = {
 export default function Faqs() {
   return (
     <Grow in={true}>
-      <section>
+      <section style={style.section}>
         <Grid
           container
           justifyContent="center"
@@ -52,7 +54,7 @@ export default function Faqs() {
         <Grid style={style.bg}></Grid>
         <Grid container justifyContent="center" style={style.box}>
           <Grid item>
-            <h1>Frequently asked questions</h1>
+            <h1>Frequently Asked Questions</h1>
           </Grid>
           <Grid item container xs={8}>
             <Grid item xs={12}>

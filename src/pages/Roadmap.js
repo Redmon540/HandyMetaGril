@@ -4,6 +4,9 @@ import Grid from "@mui/material/Grid";
 import Grow from "@mui/material/Grow";
 
 const style = {
+  section: {
+    backgroundColor: "#FFE3E1",
+  },
   box: {
     marginTop: "70px",
     marginBottom: "30px",
@@ -58,7 +61,7 @@ const style = {
 export default function RoadMap() {
   return (
     <Grow in={true}>
-      <section>
+      <section style={style.section}>
         <Grid container justifyContent="center">
           <Grid container item justifyContent="center">
             <h1 style={style.h1}>RoadMap</h1>

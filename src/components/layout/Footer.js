@@ -7,6 +7,7 @@ const style = {
     width: "100%",
     height: "120px",
     color: "#ad333c",
+    backgroundColor: "#FFD1D1",
   },
   h1: {
     fontWeight: "bold",

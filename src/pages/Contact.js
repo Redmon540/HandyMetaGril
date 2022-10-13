@@ -10,10 +10,12 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 const style = {
+  section: {
+    backgroundColor: "#FFE3E1",
+  },
   box: {
     width: "100%",
     height: "225px",
-    backgroundColor: "#fff8e9",
   },
   h1: {
     color: "#ad333c",
@@ -26,7 +28,7 @@ const style = {
 export default function Contact() {
   return (
     <Grow in={true}>
-      <section>
+      <section style={style.section}>
         <Grid
           container
           justifyContent="center"

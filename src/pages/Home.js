@@ -2,7 +2,6 @@ import * as React from "react";
 import { useState } from "react";
 
 import Grid from "@mui/material/Grid";
-import Button from "@mui/material/Button";
 import Grow from "@mui/material/Grow";
 
 import { useOnceEffect } from "../components/common/CustomHook";
@@ -55,7 +54,7 @@ export default function Home() {
     <Grow in={true}>
       <div>
         <section>
-          <Grid container sx={{ marginTop: "30px" }}>
+          <Grid container>
             <Grid container item xs={12}>
               <img alt="landing" src="../img/landing.jpg" width={"100%"} />
             </Grid>
@@ -71,15 +70,6 @@ export default function Home() {
                   Handy Meta Girls will serve as a bridge for everyone to bring
                   the women's fashion industry into the metaverse.
                 </p>
-              </Grid>
-              <Grid container item xs={12} justifyContent="center">
-                <Button
-                  variant="outlined"
-                  color="error"
-                  href="https://opensea.io/"
-                >
-                  OPENSEA
-                </Button>
               </Grid>
             </Grid>
           </Grid>

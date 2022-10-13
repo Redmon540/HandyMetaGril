@@ -18,7 +18,7 @@ const toTimestamp = (strDate) => {
 };
 
 export default function Home() {
-  const end = toTimestamp("11/11/2022 24:00:00");
+  const end = toTimestamp("11/11/2022 11:11:00");
   const [days, setDays] = useState("");
   const [hours, setHours] = useState("");
   const [mins, setMins] = useState("");

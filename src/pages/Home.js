@@ -145,6 +145,32 @@ export default function Home() {
                 className="img-founder"
               />
             </Grid>
+            <Grid item xs={6} className="grid">
+              <img
+                src="../img/dress-up.png"
+                alt="app"
+                className="img-founder"
+              />
+            </Grid>
+            <Grid item xs={6} className="grid">
+              <Grid container item xs={12} justifyContent="center" spacing={5}>
+                <h1>Handy Meta Girls Game</h1>
+                <Grid item xs={7}>
+                  <span>
+                    Handy Meta Girls game will be the main priority in our
+                    roadmap. Unlike other NFT projects, our goal is to develop
+                    and deliver the game to everyone right before our minting
+                    period.
+                  </span>
+                  <span>
+                    It is a free-to-play fashion-themed with a mini-racing game
+                    for everyone and holders get special in-game rewards. And by
+                    the way, coins earned from this game can be used in our
+                    E-shop as well!
+                  </span>
+                </Grid>
+              </Grid>
+            </Grid>
           </Grid>
         </section>
         <Roadmap />

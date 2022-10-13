@@ -7,7 +7,7 @@ const style = {
     width: "100%",
     height: "120px",
     color: "#ad333c",
-    backgroundColor: "#FFD1D1",
+    backgroundColor: "#ffd1d1",
   },
   h1: {
     fontWeight: "bold",
@@ -20,10 +20,10 @@ const style = {
 
 export default function SimpleBottomNavigation() {
   return (
-    <div>
-      <Grid container justifyContent="center" style={style.grid}>
-        <h1 style={style.h1}>Handy Meta Girls</h1>
-      </Grid>
-    </div>
+    // <div>
+    <Grid container justifyContent="center" style={style.grid}>
+      <h1 style={style.h1}>Handy Meta Girls</h1>
+    </Grid>
+    // </div>
   );
 }

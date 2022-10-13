@@ -22,7 +22,7 @@ section {
 /*   Time   */
 .time-grid {
   margin-top: 30px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .time-box {
   font: normal normal normal 40px/50px rubik-medium, sans-serif;

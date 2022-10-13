@@ -17,7 +17,7 @@ const style = {
     marginTop: "30px",
     marginBottom: "100px",
     color: "#ad333c",
-    font: "50px / 1.34em 'rozha one', serif",
+    font: "40px / 1.34em 'rozha one', serif",
     padding: "0px",
   },
   bg: {
@@ -28,7 +28,7 @@ const style = {
   },
   h1: {
     color: "#fff",
-    font: "normal normal normal 40px/1.35em 'rozha one', serif",
+    font: "normal normal normal 30px/1.35em 'rozha one', serif",
     textAlign: "center",
     margin: 0,
     fontWeight: "bold",

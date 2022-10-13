@@ -150,7 +150,7 @@ export default function Home() {
             </Grid>
             <Grid item xs={6} className="grid">
               <img
-                src="../img/IMG-20220822-WA0002.webp"
+                src="../img/IMG-20220822-WA0002.jpg"
                 alt="founder"
                 className="img-founder"
               />

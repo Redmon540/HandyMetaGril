@@ -69,7 +69,7 @@ export default function SimpleBottomNavigation() {
             </Grid>
           </Grid>
           <Grid item xs={6}>
-            <img alt="logo" src="../img/about-logo.webp" style={style.img} />
+            <img alt="logo" src="../img/04.png" style={style.img} />
           </Grid>
         </Grid>
       </Grid>
